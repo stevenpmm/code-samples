@@ -1,0 +1,27 @@
+
+THe enclosed 5 scripts form part of the software behind the holiday web site http://www.greeksun.co.uk/
+
+THey are in a nested folder structure taken directly from the original project. 
+
+Specifically these scripts control this page ... http://www.greeksun.co.uk/resort-view/
+and make use of a bespoke MVC pattern.
+
+When the page is loaded, a controller called 'resort-view' (file controller.php, line 46) is invoked that will 
+contain the necessary business logic to ...
+
+1. capture data through a model (file model.php)
+2. pass the data to a view, and (file view.php)
+3. render the html in the browser 
+
+An ajax function is also included that is called within 'Refine Results' at the top of the web page
+
+Note: in the left panel 'Holiday Search' is the same as 'Refine Results'.
+
+
+I have annotated the scripts and so the flow of events should be clear. Start with the controller.
+
+If you need further clarification don't hesitate to contact me,
+
+regards,
+
+Steven Matthews 
