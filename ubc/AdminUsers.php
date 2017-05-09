@@ -32,6 +32,11 @@ class AdminUsers extends BaseController
 	}
 	
    public function processPost() {
+	   
+	   // sanity check
+	   foreach($_POST as $key => $val) {
+	      $_POST[$key] = addslashes($val);
+	   }
    
 		
    	  $dao = DAO::getDAO('UserDAO');
