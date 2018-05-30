@@ -11,6 +11,7 @@
 # The script relies upon a "master" database that has been set up MANUALLY in advance (see documentation)
 
 
+
 # check parameters
 if [ "$#" -ne 3 ] 
 then
